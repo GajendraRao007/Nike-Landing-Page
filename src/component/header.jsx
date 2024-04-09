@@ -1,8 +1,10 @@
-function Header(params) {
+import logo from '../Images/brand_logo.png';
+function Header() {
+    
     return(
         <div className="header">
-            <div className="logo">
-                <h1>LOGO</h1>
+            <div className="logo-img">
+              <img className="logo" src={logo} alt="" />
             </div>
             <div className="Nav-menus">
                <ul>
@@ -12,8 +14,8 @@ function Header(params) {
                 <li>CONTACT</li>
                </ul>
             </div>
-            <div className="login-btn">
-                <button>Login</button>
+            <div>
+                <button className="login-btn">Login</button>
             </div>
         </div>
     )
