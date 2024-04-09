@@ -32,3 +32,11 @@ li{
   margin-top: 20px;
   border: none;
 }
+
+/*Hero Section*/
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  
+}
