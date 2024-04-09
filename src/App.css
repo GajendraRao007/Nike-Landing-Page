@@ -17,7 +17,7 @@ ul{
 li{
   list-style: none;
   float: left;
-  margin: 30px;  
+  margin: 20px;  
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -38,5 +38,63 @@ li{
 .hero-section{
   display: flex;
   justify-content: space-between;
-  
+  margin-top: 100px;
+  margin-left:150px;
+  margin-right: 150px;
+}
+
+.hero-title{
+  width: 595px;
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+
+.text{
+  width: 404px;
+  font-size: 16px;
+  margin-top: 36px;
+  font-weight: 600;
+  color: #5A5959;
+}
+
+.two-btns{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.shop-btn{
+  padding: 6px 25px;
+  background-color: #D01C28;
+  font-size: 16px;
+  color: white;
+  border: 1px solid #D01C28;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.category-btn{
+  padding: 6px 25px;
+  font-size: 16px;
+  color: #5A5959;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.img-title{
+  margin: 20px 0;
+  color: #5A5959;
+  font-size: 16px;
+}
+
+.two-imgs{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.small-imgs{
+  cursor: pointer;
 }
