@@ -1,4 +1,5 @@
 import logo from '../Images/brand_logo.png';
+
 function Header() {
     
     return(
@@ -11,7 +12,7 @@ function Header() {
                 <li>MENU</li>
                 <li>LOCATION</li>
                 <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li>Contact</li>
                </ul>
             </div>
             <div>
